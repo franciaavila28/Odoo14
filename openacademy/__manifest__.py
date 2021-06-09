@@ -11,7 +11,7 @@
             - attendees registration
     """,
 
-    'author': "My Company",
+    'author': "Francia Avila",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -25,11 +25,10 @@
 
     # always loaded
     'data': [
-        'security/ir.model.access.csv',
-        'views/openacademy.xml', # 'views.xml'
+        'views.xml', 
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        'demo/demo_data.xml',
     ],
 }
